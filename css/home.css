@@ -14,7 +14,7 @@
   width:350px;
   height: 420px;
   box-sizing:border-box;
-  background: rgba(0,0,0,.5);
+  background: rgba(0,0,0,.5); 
    padding: 20px; 
 }
  .log{ 
@@ -81,6 +81,8 @@
 
 .myMargin{
     margin: 25px;
+ 
+
 }
 /* search button */
 
