@@ -1,0 +1,450 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+ .loginBox{
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%,-50%); 
+  width:350px;
+  height: 420px;
+  box-sizing:border-box;
+  background: rgba(0,0,0,.5);
+   padding: 20px; 
+}
+ .log{ 
+  margin: 0;
+  padding: 0 0 20px;
+  color:mediumseagreen;
+  text-align: center;
+   
+}
+ .loginBox p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color:#fff; 
+} 
+ .loginBox input{
+  width:100%;
+  margin-bottom: 20px;
+
+}
+.loginBox input[type="text"]
+.loginBox input[type="password"]
+{
+  border:none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline:none;
+  height: 50px; 
+  color: dimgray;
+  font-size: 16px;
+} 
+::placeholder{
+  color:dimgray;
+} 
+
+ .loginBox input[type="submit"]
+{
+  
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  height: 40px;
+   color:#fff; 
+  font-size: 16px;
+  background:#2196F3;
+  cursor:pointer;
+  border-radius: 20px;
+} 
+ .loginBox input[type="submit"]:hover
+{
+  background:mediumslateblue;
+  color: #262626;
+} 
+ .loginBox a{
+
+  font-size: 14px;
+  font-weight: bold;
+
+
+}  
+
+
+
+
+.myMargin{
+    margin: 25px;
+}
+/* search button */
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 2px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+.row1{
+    border:2px solid black;
+    margin:100px;
+    padding: 50px;
+    
+}
+ body{
+
+     background-size: cover;
+     background-repeat: no-repeat;
+     
+ }
+
+
+ * {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password],input[type=tel] {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+   
+}
+
+input[type=text]:focus, input[type=password]:focus input[type=tel]{
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 8px;
+  
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+/* all districts */
+ .container{
+   position:relative; 
+  text-align:justify; 
+ } 
+.top-right{
+  position: absolute;
+  top: 60px;
+  left: 750px;
+  right: 20px;
+  
+  font-size: large;
+  
+}
+
+.top-center{
+  position: absolute;
+  top: 1.8%;
+  left:65%;
+  color: darkblue;
+  
+
+
+}
+/* destination */
+.container1
+{
+  width:1280px;
+  min-height: 200px;
+  background:transparent;
+  margin:10px auto 0 ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ .container1 .box{
+   position: relative;
+   width: 300px;
+   height: 300px;
+   background: #ff0;
+   margin: 10px;
+   box-sizing: border-box;
+   display: inline-block;
+ }
+
+ .container1 .box .imgBox{
+   position: relative;
+   overflow: hidden;
+ }
+ .container1 .box .imgBox img{
+   max-width: 100%;
+   transition: transform 2s ;
+ }
+ .container1 .box:hover .imgBox img{
+   transform: scale(1.25);
+ }
+ .container1 .box .details{
+   position:absolute;
+   top:150px; 
+    background: black;  
+   transform: scaleY(0);
+   transition: transform.5s;
+  
+ }
+ .container1 .box:hover .details{
+  transform: scaleY(1);
+ 
+ }
+ .container1 .box .details .content{
+   position: absolute;
+   top:50%;
+   transform: translateY(-50%);
+   text-align: center;
+   padding: 15px;
+   color:#fff;  
+ }
+ .container1 .box .details .content  h2{
+   margin: 0px;
+   padding:0px;
+   font-size: 22px;
+   color:blanchedalmond;
+
+ }  
+/* destination ends here */
+
+/* footer */
+footer{
+  background: dimgray;
+  color: white;
+  height:20em;
+  margin-top: 24%;
+}
+.container2{
+
+   margin-left: 47%;
+  margin-top: -6.5%;
+  /* color: blue; */
+  font-size: x-large;
+  border:500px; 
+
+}
+.fa:hover{
+  opacity: 0.7;
+}
+ .fa-facebook{
+  color: white;
+}
+.container2 .fa-youtube{
+  color: white;
+}
+.container2 .fa-instagram{
+  color: white;
+}
+.container2 .fa-twitter{
+  color: white;
+}
+
+.container3{
+  text-align: center;
+  margin-top:5%;
+}
+/* top sights */
+
+.sights{
+  padding-top: 50px;
+  text-align: center;
+  border:1px solid white;
+  height: 10em;
+  color: darkred;
+  font-family:sans-serif ;
+  font-style:italic ;
+  background:ivory;
+} 
+
+
+.cont{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin-top: 0px;
+
+}
+.container5
+{
+  position:relative;
+  width:1100px ;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container5 .box5{
+  position: relative;
+  width: 275px;
+  height: 275px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.container5 .box5:hover{
+  z-index:1;
+  transform:scale(1.25);
+  box-shadow: 0 25px 40px rgba(0,0,0,.5);
+}
+.container5 .box5 .imgBox5
+{
+  position:absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  height: 100%;
+}
+.container5 .box5 .imgBox5::before{
+  content:'';
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index:1;
+  background: linear-gradient(180deg,dimgray);
+  mix-blend-mode: multiply;
+  opacity:0; 
+  transition: 0.5s;
+}
+.container5 .box5:hover .imgBox5:before{
+  opacity: 1;
+}
+
+.container5 .box5 .imgBox5 img
+{
+  position:absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container5 .box5 .content5
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index:2;
+  display:flex;
+  align-items:flex-start;
+}
+.container5 .box5 .content5{
+  color:black;
+  transition: 0.5s;
+  margin-bottom: 5px;
+  
+}
+.container5 .box5:hover .content5 h4{
+  transform: translateY(0);
+  transition-delay: 0.5s;
+}
+/* art forms */
+
+
+.column5 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row5::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.art{
+  padding-top: 50px;
+  text-align: center;
+  border:1px solid white;
+  height: 10em;
+  color: green;
+  font-family:sans-serif ;
+  font-style:italic ;
+  background:ivory;
+} 
+
