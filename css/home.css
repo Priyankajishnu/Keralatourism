@@ -270,6 +270,7 @@ button:hover {
 
 /* footer */
 footer{
+  max-width: 100%;
   background: dimgray;
   color: white;
   height:20em;
