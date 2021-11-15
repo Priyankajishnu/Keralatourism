@@ -49,21 +49,20 @@
 
 
   <!-- form -->
-
+  <form action="index.html" onsubmit="return valid() && validate() && validate1()">
   <div class="loginBox">
     <h2 class="log">Log In</h2>
-    <form>
       <p>Email</p>
-      <input type="text" name="" placeholder="Enter Email">
+      <input type="text" name="" placeholder="example@example.com" id="email" required>
+      <label for="error1" id="error1"></label>
       <p>Password</p>
-      <input type="password" name="" placeholder="......">
-      
+      <input type="password" name="" placeholder="......" id="pwd" required>
+      <label for="error2" id="error2"></label>
       
       <input type="submit" name="" value="Sign In">
-      <a href="#">Forget Password</a>
-    </form>
-  </div>
-  
-  
+      <!-- <a href="#">Forget Password</a> -->
+    </div>
+  </form>
+  <script src="login.js"></script>
 </body>
 </html>

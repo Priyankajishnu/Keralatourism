@@ -175,16 +175,16 @@ button:hover {
 }
 
 /* Extra styles for the cancel button */
-.cancelbtn {
+/* .cancelbtn {
   padding: 14px 20px;
   background-color: #f44336;
-}
+} */
 
 /* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
+/*  .signupbtn {
   float: left;
   width: 50%;
-}
+} */
 
 /* Add padding to container elements */
 .container {
@@ -192,18 +192,18 @@ button:hover {
 }
 
 /* Clear floats */
-.clearfix::after {
+/* .clearfix::after {
   content: "";
   clear: both;
   display: table;
-}
+} */
 
 /* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
+/* @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
     width: 100%;
   }
-}
+} */
 
 
 
@@ -470,3 +470,51 @@ footer{
 }
 
 img { max-width: 100%; height: auto; }
+
+
+#phone{
+  width:100%;
+  height:2.5em;
+}
+
+
+/* password */
+.indicator{
+  height:10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+ .indicator span{
+  width: 100%;
+  height: 100%;
+  background: lightgrey;
+  border-radius: 5px;
+ }
+.indicator span.medium{
+  margin: 0 3px;
+} 
+/* .indicator span:before{ */
+  /* content:'';
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%; */ 
+   /* background:red;  */
+   /* border-radius:5px; */
+ /* }  */
+.indicator span.weak{
+  background-color: red;
+}
+.indicator span.medium{
+  background-color:orange;
+}
+.indicator span.strong{
+  background-color:#23ad5c ;
+}
+.text{
+  text-align: center;
+}  
